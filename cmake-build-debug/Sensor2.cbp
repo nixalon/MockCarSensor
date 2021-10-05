@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Sensor2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sensor2">
+				<Option output="C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Sensor2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Languages/MinGW/include"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sensor2"/>
+					<CompileFile command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Sensor2/fast">
+				<Option output="C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Sensor2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Languages/MinGW/include"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/x86_64-w64-mingw32"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../include/c++/4.8.3/backward"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/include-fixed"/>
+					<Add directory="c:\languages\mingw\bin\../lib64/gcc/x86_64-w64-mingw32/4.8.3/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 Sensor2/fast"/>
+					<CompileFile command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Languages/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Alexandra/CLionProjects/Sensor2/fileReader.cpp">
+			<Option target="Sensor2"/>
+		</Unit>
+		<Unit filename="C:/Users/Alexandra/CLionProjects/Sensor2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
