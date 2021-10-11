@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Alexandra/CLionProjects/Sensor2/fileReader.cpp" "C:/Users/Alexandra/CLionProjects/Sensor2/cmake-build-debug/CMakeFiles/Sensor2.dir/fileReader.cpp.obj"
+  "C:/Users/Alexandra/CLionProjects/MockSensor2/fileReader.cpp" "C:/Users/Alexandra/CLionProjects/MockSensor2/cmake-build-debug/CMakeFiles/Sensor2.dir/fileReader.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

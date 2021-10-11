@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Alexandra/CLionProjects/Sensor2/fileReader.cpp
+C:/Users/Alexandra/CLionProjects/MockSensor2/fileReader.cpp
 iostream
 -
 fstream
@@ -16,5 +16,7 @@ string
 array
 -
 bitset
+-
+unistd.h
 -
 
