@@ -7,41 +7,13 @@
 
 using namespace std;
 
+void readFile();
 void compareSensorData(array<unsigned char, 30> sensorData, int fileNumber);
-
+array <unsigned char, 30> playWithData(array<bool, 236> currentSensorData);
 void playWithDataBackwardsAndPrint(const array<unsigned char, 30> &currentSensorData,
                                    const array<unsigned char, 30> &lastSensorData);
 
-string getFileName(int i){
-    string fileName = string("Sensors") + to_string(i) + ".txt";
-    return fileName;
-}
-
-template <typename T>
-string bin_str8(T n) {
-    bitset<8> bs(n);
-    return bs.to_string();
-}
-
-// bits =  0 1 0 1 0 1 0 1
-// cnt = 4
-// bit = 0 0 0 1 0 0 0 0
-array <unsigned char, 30> playWithData(array<bool, 236> currentSensorData) {
-    int bitCount = 0;
-    int byteCount = 0;
-    array <unsigned char, 30> sensorBytes{};        //auto *sensorBytes = new unsigned char[30];
-    for(auto value : currentSensorData) {
-        if(value) {
-            int bit = (1) << bitCount;
-            sensorBytes[byteCount] |= bit;
-        }
-        if(bitCount++ >= 8) {
-            byteCount++;
-            bitCount = 0;
-        }
-    }
-    return sensorBytes;
-}
+string getFileName(int i);
 
 void readFile(){
     string line;
@@ -76,6 +48,23 @@ void compareSensorData(array<unsigned char, 30> currentSensorData, int fileNumbe
     sleep(1);
 }
 
+array <unsigned char, 30> playWithData(array<bool, 236> currentSensorData) {
+    int bitCount = 0;
+    int byteCount = 0;
+    array <unsigned char, 30> sensorBytes{};        //auto *sensorBytes = new unsigned char[30];
+    for(auto value : currentSensorData) {
+        if(value) {
+            int bit = (1) << bitCount;
+            sensorBytes[byteCount] |= bit;
+        }
+        if(bitCount++ >= 8) {
+            byteCount++;
+            bitCount = 0;
+        }
+    }
+    return sensorBytes;
+}
+
 void playWithDataBackwardsAndPrint(const array<unsigned char, 30> &currentSensorData,
                                    const array<unsigned char, 30> &lastSensorData) {
     int i;
@@ -91,6 +80,11 @@ void playWithDataBackwardsAndPrint(const array<unsigned char, 30> &currentSensor
             }
         }
     }
+}
+
+string getFileName(int i){
+    string fileName = string("Sensors") + to_string(i) + ".txt";
+    return fileName;
 }
 
 int main () {
